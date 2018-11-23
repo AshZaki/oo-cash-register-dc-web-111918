@@ -1,3 +1,5 @@
+require 'pry'
+
 class CashRegister
   attr_accessor :total, :discount, :items
 
@@ -26,6 +28,7 @@ class CashRegister
   
   def void_last_transaction
     last_item = self.items.pop()
+    binding.pry
   end
  
 end
