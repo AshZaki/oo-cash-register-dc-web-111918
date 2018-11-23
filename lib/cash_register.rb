@@ -1,7 +1,4 @@
 class Cash_Register
+  attr_accessor :item, 
   
-  def total
-    
-    return total
-  end
 end
