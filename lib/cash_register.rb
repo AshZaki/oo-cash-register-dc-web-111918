@@ -1,4 +1,4 @@
-class cash_register
+class Cash_Register
   
   def total
     
