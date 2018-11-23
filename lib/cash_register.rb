@@ -1,7 +1,7 @@
 class CashRegister
   attr_accessor :total
   
-  def initialize(total = 0, employee)
+  def initialize(. test)
   end
   
   def add_item(title, price)
