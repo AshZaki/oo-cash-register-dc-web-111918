@@ -14,6 +14,6 @@ class CashRegister
   def apply_discount
     @discount = cart_discount
     cart_discount = self.total * 20 / 100
-    return "After the discount, the total comes to $#{@discount}"
+    return "After the discount, the total comes to $#{cart_discount}"
   end
 end
