@@ -27,6 +27,10 @@ class CashRegister
     end
   end
   
+  def last_price(price)
+    @
+  end
+  
   def void_last_transaction
     last_item = self.items.pop()
     binding.pry
